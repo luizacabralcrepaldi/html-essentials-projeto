@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e9e5d5;
+}
+
+
+header {
+    background: linear-gradient(to right,  #6eb5ca, #3d7aab);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+header h2 {
+    font-weight: normal;
+    font-size: 18px;
+}
+
+
+
+main {
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+
+.card {
+    display: flex;
+    background: white;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card img {
+    width: 300px;
+    object-fit: cover;
+}
+
+.text {
+    padding: 20px;
+}
+
+.text h3 {
+    margin-top: 0;
+    color: #2a7f85;
+}
+
+.text p {
+    margin-bottom: 10px;
+}
+
+.text ul {
+    padding-left: 20px;
+}
+
+.text a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: #3da4ab;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.text a:hover {
+    background-color: #2a7f85;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #6eb5ca;
+    color: #5e8b8d;
+    margin-top: 40px;
+}
+
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+  url(topo2.png);
+  background-size: cover;
+  background-position: center;
+  padding: 150px;
+}
+
+.overlay {
+  display: flex;
+  flex-direction: column;
+}
+
+header p {
+    font-family: 'Pacifico', cursive;
+    font-size: 80px;
+}
+
+header p2  {
+font-family: 'Pacifico', cursive;
+    font-size: 60px;
+    color: #659eb4;
+
+}
+header h2 {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
