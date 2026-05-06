@@ -76,13 +76,44 @@ main {
     background-color: #2a7f85;
 }
 
-/* FOOTER */
 footer {
+    background: linear-gradient(to right, #3da4ab, #2a7f85);
+    color: white;
     text-align: center;
-    padding: 20px;
-    background: #6eb5ca;
-    color: #5e8b8d;
-    margin-top: 40px;
+    padding: 40px 20px;
+    margin-top: 50px;
+}
+
+.footer-content h3 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.footer-content p {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.footer-links {
+    margin: 15px 0;
+}
+
+.footer-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.footer-links a:hover {
+    color:#6ec9c4;
+}
+
+.copy {
+    margin-top: 20px;
+    font-size: 12px;
+    opacity: 0.8;
 }
 
 .hero {
@@ -115,4 +146,22 @@ header h2 {
 
 body {
     font-family: 'Poppins', sans-serif;
+}
+
+.text h3 {
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.text h3:hover {
+  color:#96c5d8 ;
+    transform: translateX(5px);
+}
+
+.card {
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.02);
 }
